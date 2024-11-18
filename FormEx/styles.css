@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #98c1d9;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  width: 60%;
+  margin: 2rem auto;
+  background: #e0fbfc;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #3d5a80;
+}
+p {
+  text-align: center;
+  font-size: 22px;
+  color: #ee6c4d;
+}
+.title {
+  text-align: center;
+  color: #3d5a80;
+  font-size: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555555;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #3d5a80;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+textarea {
+  resize: vertical;
+}

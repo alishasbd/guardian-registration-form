@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guardian Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Dubbo Nepalese Guardian Society, Australia</h1>
+      <p>(For guardians of Nepalese students in Australia)</p>
+      <p>
+        This form is developed to collect essential information about
+        parents/guardians whose children are in Australia for their studies, to
+        ensure support and communication in times of need. Please fill out the
+        form below carefully and accurately.
+      </p>
+      <div class="title">Registration Form</div>
+
+      <form id="registrationForm">
+        <!-- Guardian Details -->
+        <fieldset>
+          <legend>A) Guardian Details</legend>
+          <label for="guardianName">Guardian's Name:</label>
+          <input
+            type="text"
+            id="guardianName"
+            placeholder="Mr./Mrs./Ms."
+            required
+          />
+
+          <label for="address">Address:</label>
+          <input
+            type="text"
+            id="address"
+            placeholder="District, Municipality/Ward"
+            required
+          />
+
+          <label for="houseNo">City:</label>
+          <input type="text" id="city" />
+
+          <label for="phone">* Phone Details:</label>
+
+          <label for="nepalNumber">1) Nepal Contact Number:</label>
+          <input type="text" id="nepalNumber" required />
+
+          <label for="australiaNumber">2) Australia Contact Number:</label>
+          <input type="text" id="australiaNumber" required />
+
+          <label for="facebook">Facebook ID:</label>
+          <input type="text" id="facebook" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" />
+
+          <label for="arrivalDate">Date of Arrival in Australia:</label>
+          <input type="date" id="dateofArrival" required />
+
+          <label for="visitInterval"
+            >How many times you have visited Australia ?
+          </label>
+          <select id="visitInterval">
+            <option>First</option>
+            <option>Second</option>
+            <option>Third</option>
+            <option>Fourth</option>
+            <option>Fifth</option>
+          </select>
+
+          <label for="stayInterval">Length Of Stay:</label>
+          <input type="text" id="stayInterval" />
+        </fieldset>
+
+        <!-- Son/Daughter Details -->
+        <fieldset>
+          <legend>B) Son/Daughter Details</legend>
+          <label for="childName">Son/Daughter's Name:</label>
+          <input type="text" id="childName" required />
+
+          <label for="inLawsName">Son-In-Law/Daughter-In-Law Name:</label>
+          <input type="text" id="inLawsName" required />
+
+          <label for="childEmail">Email:</label>
+          <input type="email" id="childEmail" />
+
+          <label for="childPhone">Contact Number:</label>
+          <input type="text" id="childPhone" required />
+
+          <label for="stayInterval">Length Of Stay:</label>
+          <input type="text" id="stayInterval" />
+
+          <label for="concerns">Special Concerns/Assistance Needed:</label>
+          <textarea id="concerns" rows="4"></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Submission Details</legend>
+          <label for="submissionDate">Date of Form Submission:</label>
+          <input type="date" id="submissionDate" required />
+
+          <label for="signature">Signature:</label>
+          <input
+            type="text"
+            id="signature"
+            placeholder="Your Full Name"
+            required
+          />
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
